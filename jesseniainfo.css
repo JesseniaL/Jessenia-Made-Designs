@@ -1,0 +1,57 @@
+/* Style the header */
+a:hover {
+    color: #E04200; /* orange-red */
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333; /* grey */
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111; /* black */
+}
+
+.HeaderContent {
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+p {
+	margin: 41px;
+	color: #404040; /* light grey */
+}
+
+.contact {
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	color: #333333; /* dark grey */
+	text-align: center;
+	border: 1px solid white;
+	margin: 40px; /* It shrinks the border size; does not fit the whole webpage */
+	padding: 2px; /* It gives spacing from top and bottom of the box margin*/
+	background-color: white;
+}
